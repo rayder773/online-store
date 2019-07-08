@@ -2,6 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://quizzical-bohr-e193da.netlify.com/ - `deployment`
 
+In this aplication you can login as user or admin. For this go to online-store/src/reducers/index.js and change `access` to
+true or false
+
 ## Available Scripts
 
 In the project directory, you can run:
