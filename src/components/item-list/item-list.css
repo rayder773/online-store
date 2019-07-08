@@ -1,0 +1,6 @@
+.item-list {
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
