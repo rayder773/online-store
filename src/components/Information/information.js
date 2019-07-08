@@ -7,7 +7,6 @@ import { allItemRemovedFromCatalog } from '../../actions';
 import './information.css';
 
 const Information = ({ items, onDeletedAllItemsFromCatalog }) => {
-  console.log(items)
 
   let totalPrice = 0;
   
@@ -35,7 +34,6 @@ const Information = ({ items, onDeletedAllItemsFromCatalog }) => {
     </div>
   );
 };
-
 
 const mapStateToProps = ( { itemList: { items } } ) => {
   return {

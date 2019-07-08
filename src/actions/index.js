@@ -39,6 +39,7 @@ export const addItemToCatalog = (payload) => {
 };
 
 const fetchItems = (itemService, dispatch) => () => {
+  console.log('hi')
   dispatch(itemsRequested());
   itemService.getItems()
     .then((data) => dispatch(itemsLoaded(data)))

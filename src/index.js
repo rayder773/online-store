@@ -12,6 +12,7 @@ import store from './store';
 
 const itemService = new ItemsService();
 
+console.log(store.getState())
 
 ReactDOM.render(
   <Provider store={store}>

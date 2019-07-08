@@ -1,7 +1,7 @@
 import React from 'react';
 import './item.css';
 
-const ItemListItem = ({ item, onDeletedFromCatalog, access }) => {
+const Item = ({ item, onDeletedFromCatalog, access }) => {
   const { title, price, coverImage } = item;
   const btn = access ? (
     <button
@@ -24,4 +24,4 @@ const ItemListItem = ({ item, onDeletedFromCatalog, access }) => {
   );
 };
 
-export default ItemListItem;
+export default Item;

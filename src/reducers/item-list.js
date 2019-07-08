@@ -1,12 +1,12 @@
 const updateItemList = (state, action) => {
-
-  if (state === undefined) {
+  if (state === undefined ) {
     return {
       items: [],
       loading: true,
       error: null,
     };
   }
+
 
   const deleteFromCatalog = (state, itemId) => {
     const { itemList: { items } } = state;
@@ -44,6 +44,7 @@ const updateItemList = (state, action) => {
 
   switch (action.type) {
     case 'FETCH_ITEMS_REQUEST':
+      console.log('hg')
       return {
         items: [],
         loading: true,
